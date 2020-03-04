@@ -35,7 +35,7 @@ mb01.addEventListener("click", function() {
     window.location.href = "../aundc/";
 }, false);
 mb02.addEventListener("click", function() {
-    window.location.href = "../discography/";
+    window.location.href = "../releases/";
 }, false);
 mb03.addEventListener("click", function() {
     window.location.href = "../news/";

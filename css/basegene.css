@@ -40,6 +40,9 @@ body {
 .imgt {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .imgbor {
     border: solid 1px #000000;
@@ -109,14 +112,13 @@ body {
     height: auto;
 }
 .imgridox {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
-    grid-auto-rows: 1fr;
-    grid-gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .innerimgrix {
-    overflow: auto;
-    min-width: 0;
+    flex: 1 0 300px;
 }
 .innerimgrix img {
     max-width: 90%;
