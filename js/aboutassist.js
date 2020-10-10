@@ -9,6 +9,7 @@ var mb05 = document.getElementById("m05");
 var mbcl = document.getElementsByClassName("meui");
 var mebt_clicked = false;
 
+mebt.classList.add("mebt-closed");
 mebt.addEventListener("click", function() {
     //var vistates = mbcl.style.display;
     if(!mebt_clicked) {
@@ -17,6 +18,8 @@ mebt.addEventListener("click", function() {
         mb03.style.display = "flex";
         mb04.style.display = "flex";
         mb05.style.display = "flex";
+        mebt.classList.remove("mebt-closed");
+        mebt.classList.add("mebt-opened");
         mebt_clicked = true;
     }
     else {
@@ -25,6 +28,8 @@ mebt.addEventListener("click", function() {
         mb03.style.display = "none";
         mb04.style.display = "none";
         mb05.style.display = "none";
+        mebt.classList.remove("mebt-opened");
+        mebt.classList.add("mebt-closed");
         mebt_clicked = false;
     }
 });
