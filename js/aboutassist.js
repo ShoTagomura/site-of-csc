@@ -41,7 +41,7 @@ mb03.addEventListener("click", function() {
     window.location.href = "../news/";
 }, false);
 mb04.addEventListener("click", function() {
-    window.open("https://csoundc.bandcamp.com/releases", "_blank");
+    window.open("https://csoundc.bandcamp.com/", "_blank");
 }, false);
 mb05.addEventListener("click", function() {
     window.open("https://twitter.com/c_sc_inforoom", "_blank");

@@ -12,7 +12,7 @@ mb02.addEventListener("click", function() {
     window.location.href = "./releases/";
 }, false);
 mb03.addEventListener("click", function() {
-    window.open("https://csoundc.bandcamp.com/releases", "_blank");
+    window.open("https://csoundc.bandcamp.com/", "_blank");
 }, false);
 mb04.addEventListener("click", function() {
     window.open("https://twitter.com/c_sc_inforoom", "_blank");
