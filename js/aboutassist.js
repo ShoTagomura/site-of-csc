@@ -33,7 +33,7 @@ mebt.addEventListener("click", function() {
         mebt_clicked = false;
     }
 });
-mbti.addEventListener("click", function() {
+/*mbti.addEventListener("click", function() {
     window.location.href = "../";
 }, false);
 mb01.addEventListener("click", function() {
@@ -50,4 +50,4 @@ mb04.addEventListener("click", function() {
 }, false);
 mb05.addEventListener("click", function() {
     window.open("https://twitter.com/c_sc_inforoom", "_blank");
-}, false);
+}, false);*/
